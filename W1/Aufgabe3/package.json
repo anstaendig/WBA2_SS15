@@ -4,7 +4,7 @@
   "description": "WBA2_SS15 Wolkenkratzer Aufgabe2",
   "main": "app.js",
   "author": "Marcel Holter",
-  "readmeFilename": "../README.md",
+  "readmeFilename": "../../README.md",
   "dependencies": {
     "chalk": "^1.0.0"
   }
