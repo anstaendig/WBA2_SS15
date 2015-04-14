@@ -1,0 +1,11 @@
+{
+  "name": "Aufgabe2",
+  "version": "0.1.0",
+  "description": "WBA2_SS15 Wolkenkratzer Aufgabe2",
+  "main": "app.js",
+  "author": "Marcel Holter",
+  "readmeFilename": "../README.md",
+  "dependencies": {
+    "chalk": "^1.0.0"
+  }
+}
