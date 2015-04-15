@@ -3,12 +3,13 @@ var fs = require('fs');
 var chalk = require('chalk');
 
 // read wolkenkratzer.json
-fs.readFile(__dirname+'/wolkenkratzer.json', function(err, data) { 
+fs.readFile(__dirname+'/wolkenkratzer.json', function(err, data) {
 	// error handling
 	if (err) throw err;
 	// binary -> string with .toString(), string -> object with JSON.parse()
 	var obj = JSON.parse(data.toString());
 	// sort array descending
+	// TODO b-a
 	obj.wolkenkratzer.sort(function(a,b) {
 		if(a.hoehe > b.hoehe) return -1;
 		if(a.hoehe < b.hoehe) return 1;
@@ -27,4 +28,3 @@ fs.readFile(__dirname+'/wolkenkratzer.json', function(err, data) {
 		});
 	});
 });
-
