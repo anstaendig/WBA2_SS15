@@ -2,7 +2,7 @@
 var fs = require('fs');
 
 // read wolkenkratzer.json
-fs.readFile(__dirname+'/wolkenkratzer.json', function(err, data) {
+fs.readFile(__dirname+'../wolkenkratzer.json', function(err, data) {
 	// error handling
 	if (err) throw err;
 	// binary -> string with .toString(), string -> object with JSON.parse()
